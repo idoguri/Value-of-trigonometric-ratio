@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Value of trigonometric ratio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="header" >次の三角比の値を選べ</h1>
+    <div id="quizContainer" style="display: none;">
+        <div id="questionText"></div>
+        <div id="options"></div>
+    </div>
+    <div id="resultContainer" style="display: none;">
+        <div id="score"></div>
+        <div id="resultList"></div>
+        <button id="retryButton" onclick="restartQuiz()">再挑戦</button>
+    </div>
+    <button id="startButton" onclick="startQuiz()">問題開始</button>
+    <script src="quiz.js"></script>
+</body>
+</html>
