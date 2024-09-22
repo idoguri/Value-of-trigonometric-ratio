@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#quizContainer, #resultContainer {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#questionText {
+    font-size: 24px; /* 問題文のサイズを大きく */
+    font-weight: bold; /* 太字にして見やすく */
+    margin-bottom: 20px; /* 選択肢との間に余白を作る */
+    text-align: center; /* 中央揃えにする */
+}
+
+.optionButton {
+    display: block;
+    margin: 10px auto;
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+}
+
+.optionButton:hover {
+    background-color: #0056b3;
+}
+
+#resultList div {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+#startButton, #retryButton {
+    padding: 15px 25px;
+    font-size: 18px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#startButton:hover, #retryButton:hover {
+    background-color: #218838;
+}
+
+#score {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px; /* 結果リストとの間に余白を作る */
+    text-align: center; /* 中央揃えにする */
+}
+
+#resultList {
+    margin-top: 10px; /* 得点との間に余白を作る */
+}
+
+/* スマートフォン対応 */
+@media screen and (max-width: 600px) {
+    #quizContainer, #resultContainer {
+        margin: 10px auto;
+        padding: 10px;
+    }
+
+    #questionText {
+        font-size: 20px; /* スマートフォンでは少し文字サイズを小さく調整 */
+        margin-bottom: 15px;
+    }
+
+    .optionButton {
+        padding: 12px 20px; /* ボタンサイズを少し小さくしてフィットさせる */
+        font-size: 16px;
+    }
+
+    #startButton, #retryButton {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+}
