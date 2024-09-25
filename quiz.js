@@ -2,7 +2,7 @@ const allQuestions = [
     
         {
             "question": "sin0°",
-            "options": ["1", "0", "1/2", "√2/2"],
+            "options": ["1", "0", "1/2", "1/√2"],
             "answer": "0"
         },
         {
@@ -12,12 +12,12 @@ const allQuestions = [
         },
         {
             "question": "sin45°",
-            "options": ["1", "1/2", "√2/2", "√3/2"],
-            "answer": "√2/2"
+            "options": ["1", "1/2", "1/√2", "√3/2"],
+            "answer": "1/√2"
         },
         {
             "question": "sin60°",
-            "options": ["1", "1/2", "√3/2", "√2/2"],
+            "options": ["1", "1/2", "√3/2", "1/√2"],
             "answer": "√3/2"
         },
         {
@@ -27,53 +27,53 @@ const allQuestions = [
         },
         {
             "question": "cos0°",
-            "options": ["1", "0", "1/2", "√2/2"],
+            "options": ["1", "0", "1/2", "1/√2"],
             "answer": "1"
         },
         {
             "question": "cos30°",
-            "options": ["1", "1/2", "√3/2", "√2/2"],
+            "options": ["1", "1/2", "√3/2", "1/√2"],
             "answer": "√3/2"
         },
         {
             "question": "cos45°",
-            "options": ["1", "1/2", "√3/2", "√2/2"],
-            "answer": "√2/2"
+            "options": ["1", "1/2", "√3/2", "1/√2"],
+            "answer": "1/√2"
         },
         {
             "question": "cos60°",
-            "options": ["1", "1/2", "√3/2", "√2/2"],
+            "options": ["1", "1/2", "√3/2", "1/√2"],
             "answer": "1/2"
         },
         {
             "question": "cos90°",
-            "options": ["1", "0", "1/2", "√2/2"],
+            "options": ["1", "0", "1/2", "1/√2"],
             "answer": "0"
         },
         {
             "question": "tan0°",
-            "options": ["0", "1/2", "1", "undefined"],
+            "options": ["0", "1/2", "1", "×"],
             "answer": "0"
         },
         {
             "question": "tan30°",
-            "options": ["1", "1/2", "√3", "√3/3"],
-            "answer": "√3/3"
+            "options": ["1", "1/2", "√3", "1/√3"],
+            "answer": "1/√3"
         },
         {
             "question": "tan45°",
-            "options": ["1", "1/2", "√3", "√3/3"],
+            "options": ["1", "1/2", "√3", "1/√3"],
             "answer": "1"
         },
         {
             "question": "tan60°",
-            "options": ["1", "1/2", "√3", "√3/3"],
+            "options": ["1", "1/2", "√3", "1/√3"],
             "answer": "√3"
         },
         {
             "question": "tan90°",
-            "options": ["定義されない", "0", "1/2", "1"],
-            "answer": "定義されない"
+            "options": ["×", "0", "1/2", "1"],
+            "answer": "×"
         }
     
 //他の問題の追加
