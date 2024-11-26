@@ -37,7 +37,7 @@ const allQuestions = [
     },
     {
         "question": "sin150°",
-        "options": ["1", "-1/2", "√3/2", "-1/√2"],
+        "options": ["1", "1/2", "√3/2", "-1/√2"],
         "answer": "1/2"
     },
     {
